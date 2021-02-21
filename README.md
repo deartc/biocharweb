@@ -8,7 +8,7 @@ The colors chosen for website were primarily charcoal, black, and gray which ref
 
 
 Javascript and other functions
-  I used javasript to aid in responsive design so it would change from mobile to desktop and allow for a better user interface. To demonstrate other requirements using javascripts/other functions( including php), I created user forms.  To meet requirements I used javascript on the name part of the form.  Once the user submits the name, the form would return Hello and the user's name.   I also validated email. I wanted to use a more advanced function than javacript to  check email validation so that it would be returned with either the positive validation message in green or not validated in red.  The comment section also returns a "your comment has been submitted" message. 
+  I used javasript to aid in responsive design so it would change from mobile to desktop and allow for a better user interface. To demonstrate other requirements using javascripts/other functions( including php), I created user forms.  To meet requirements I used javascript on the name part of the form.  Once the user submits the name, the form would return Hello and the user's name.   I also validated email. I wanted to use a more advanced function than javacript to  check email validation so that it would be returned with either the positive validation message in green or not validated in red.  The comment section also returns a "your comment has been submitted" message above the comment section. 
 
   
 
