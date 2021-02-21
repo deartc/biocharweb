@@ -2,7 +2,7 @@ Biochar Star
 
 Biochar Star is a webpage template for a business.  The webpage submitted in class was designed to satsify specific requirements for the class.  I will  transition it to a business webpage in the future that sells biochar and related items. It was tested and works on Google Chrome.     
 
-Css/Media queries 
+Css/Media queries: 
 
 The colors chosen for website were primarily charcoal, black, and gray which reflects colors of biochar.  Green was also used to reflect nature.  I kept the webite design simple because primary users will be envrionmentally conscious people who prefer simplicity. I adjusted in css for mobile and desktop usage which meets the mobile first requirement. I used responsive design for the navigation bar which meets the class requirement.  The navigation bar includes text that changes color when hovered over which was also an optional requirement. I also used responsive design for the contact page to include  Biochar Star's email and address. I designed it specifically without footers.  I wanted to meet the requirment of responsive design change of size of container objects using media queries. To meet class requirements I also made every other line on the list change color using nth child/nth of a type.  	    
 
