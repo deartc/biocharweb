@@ -11,5 +11,5 @@ Javascript and other functions
 
   
 
-Accessibility:  I followed best practices to ensure that the website was accessible for those users with slower internet connections. The html, css, and javascript was loaded in that order in order to allow for faster accesss.  I put as much styling components in css not html so it would load faster too.   I  personally designed a logo in paint so that it loads quickly and labeled it to meet accessibility rules. I labelled the buttons.    
+Accessibility:  I followed best practices to ensure that the website was accessible for those users with slower internet connections. The html, css, and javascript was loaded in that order in order to allow for faster accesss.  I put as much styling components in css not html so it would load faster too.   I  personally designed a logo in  paint software so that it loads quickly.  I labeled logo and buttons to meet accessibility rules.    
 
