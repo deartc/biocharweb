@@ -1,4 +1,6 @@
-/* Responsive layout - Css was designed to be responsive on mobile and desktop devices.  Colors primarily gray,charcoal or black to represent biochar color, and green which represents growth.  Simple design implemented which reflects enviornmentally conscious audience.  The navigation bar is designed to change color when hovered over.   */
+
+
+/* Responsive layout - Css was designed to be responsive on mobile and desktop devices.  Colors primarily gray,charcoal or black to represent biochar color, and green which represents growth.  Simple design implemented which reflects enviornmentally conscious audience.  The navigation bar is designed to change color when hovered over. It also changes from horizontal to vertical on the navigation bar.  The menu bars have to be clicked for this to happen.   */
 
 body {background-color:
   palegreen ;
@@ -8,36 +10,27 @@ body {background-color:
 
 .topnav {
   overflow: hidden;
-  background-color: #000
-    
-    
-   
-    
-    ;
-  }
+  background-color: #333;
+}
 
 .topnav a {
   float: left;
   display: block;
-  color: #242242242
-    ;
+  color: #f2f2f2;
   text-align: center;
-  padding: 13px 12px;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color: #dddddd
-    ;
-  color: charcoal
-    ;
+  background-color: #ddd;
+  color: black;
 }
 
-.topnav a.active {
-  background-color: green;
-  color: #FFFFFFF
-      ;
+.active {
+  background-color: #4CAF50;
+  color: white;
 }
 
 .topnav .icon {
@@ -45,13 +38,27 @@ body {background-color:
 }
 
 
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
   }
+}
 
-/*to meet css requirement of alternating color change in css*/
+
+.topnav {
+  overflow: hidden;
+  background-color: #000;
+  }
+
+
+
+/*to meet class requirement of alternating color change in css*/
 li:nth-child(2n) {
 background-color: lime;
 }
@@ -110,7 +117,7 @@ h1 {
 
 /*         MEDIA QUERIES are used to ensure mobile first and that website works on both mobile and desktop devices . Media querires are placed at the end to ensure accessibility to load faster    * /
 
-@media screen and (min-width: 634px) {
+@media screen and (min-width: 600px) {
 
   ul.main-nav {float: right;
         width: 60%;
@@ -159,5 +166,73 @@ h1 {
     right: 0;
     top: 0;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
