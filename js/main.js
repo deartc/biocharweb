@@ -14,7 +14,17 @@ function myFunction() {
 }
 
 
+/*
+The code below will show the pyrolyzer conversion from Fahrenheit to Celcius 
+and the name your enter:
+*/
 
+
+
+function temperatureConverter(valNum) {
+  valNum = parseFloat(valNum);
+  document.getElementById("outputCelcius").innerHTML=(valNum-32)/1.8;
+}
 
 
 /*
