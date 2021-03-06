@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <!Simple font was selected to meet accessibility guidelines>
@@ -31,7 +30,7 @@
 
       <li> Easy to Use-Simplifies application of product </li>
 
-      <li>Contributes to  green reducing carbon footprint </li>
+      <li>Contributes to reducing carbon footprint </li>
 
  <h3>Non Gardeners 
         :</h3>
@@ -158,7 +157,7 @@ Dr. Ray Bayan started Biochar Star in
 <hr> </hr>
 <hr></hr>
 
-<h1>BIOCHAR STAR’S INFORMATION FORMS AND CONTACT INFORMATION</h1>
+<h1><strong>BIOCHAR STAR’S INFORMATION FORMS AND CONTACT INFORMATION </strong></h1>
 
 <div class="container"></div>
   <div class="img-container">
@@ -172,7 +171,21 @@ Dr. Ray Bayan started Biochar Star in
 <h2>Customer Information Forms:</h2>
       
 
-<!Forms returns  a greeting and name by javascript.  Email  and comment verification is by php >
+<! The first temperature form returns the pyrolyzer temperature conversion from Fahrenheit to Celsius so readers know the temperature ranges for biochar and is done by javascript.  The name form returns a greeting and name and is done by javascript. Email  and comment verification is by php>
+
+
+<title> Pyrolyzer Fahrenheit to Celcius Temperature Converter</title>
+
+<h2>Pyrolyzer Temperature Converter</h2>
+<p>Type in a Fahrenheit temperature to convert to Celsius:</p>
+
+<p>
+  <label>Fahrenheit</label>
+  <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+</p>
+<p>Celsius: <span id="outputCelcius"></span></p>
+
+
 
       <h2 id='result2'></h2>
       <form>
@@ -276,56 +289,6 @@ Dr. Ray Bayan started Biochar Star in
    <script src="js/main.js"></script>       
    </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
