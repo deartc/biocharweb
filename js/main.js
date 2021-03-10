@@ -15,7 +15,7 @@ function myFunction() {
 
 
 /*
-The code below will show the pyrolyzer conversion from Fahrenheit to Celcius 
+The code below will show the pyrolyzer conversion from Fahrenheit to Celsius 
 and the name your enter:
 */
 
