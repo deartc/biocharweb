@@ -23,12 +23,12 @@ and the name your enter:
 
 function temperatureConverter(valNum) {
   valNum = parseFloat(valNum);
-  document.getElementById("outputCelcius").innerHTML=(valNum-32)/1.8;
+  document.getElementById("outputCelsius").innerHTML=(valNum-32)/1.8;
 }
 
 
 /*
-The code below will add greet you with Hello 
+The code below will  greet you with Hello 
 and the name your enter:
 */
 
