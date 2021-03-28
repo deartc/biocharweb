@@ -23,7 +23,7 @@ The code below will show the pyrolyzer conversion from Fahrenheit to Celsius
 
 function temperatureConverter(valNum) {
   valNum = parseFloat(valNum);
-  document.getElementById("outputCelsius").innerHTML=(valNum-32)/1.8;
+  document.getElementById("outputCelcius").innerHTML=(valNum-32)/1.8;
 }
 
 
