@@ -63,9 +63,6 @@ background-color: lime;
 }
 
 
-
-
-
 * {
   box-sizing: border-box;
 }
@@ -87,7 +84,6 @@ background-color: lime;
 
 
 
-
 /*Image  is labeled in compliance with accessibility conformance and loads quickly to meet responsivity*/
 .img-container {
 text-align: center;
@@ -98,9 +94,6 @@ div.hide {
   background-color: lime;
   padding: 20px;
 }
-
-
-
 
 
 
@@ -153,7 +146,7 @@ div.hide {
 
 
 /* Create two equal columns that floats next to each .  This meet the media query requirement of responsive design of changing layout to aid 
-in improvement for user interaction by changing two  stacked columns into a floated column */
+in improvement for user interaction by changing two stacked columns into a floated column */
 
 
 @media screen and (max-width: 600px) {
@@ -172,7 +165,7 @@ in improvement for user interaction by changing two  stacked columns into a floa
   }
 }
   
- /*hides text*/ 
+ /*hides text on smaller screens but text present on larger screens*/ 
 
 @media screen and (max-width: 600px) {
   div.hide {
