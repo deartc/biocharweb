@@ -99,11 +99,7 @@ div.hide {
   padding: 20px;
 }
 
-@media screen and (max-width: 600px) {
-  div.hide {
-    display: none;
-  }
-}
+
 
 
 
@@ -175,8 +171,14 @@ in improvement for user interaction by changing two  stacked columns into a floa
     width: 50%;
   }
 }
+  
+ /*hides text*/ 
 
-
+@media screen and (max-width: 600px) {
+  div.hide {
+    display: none;
+  }
+}
 
 
 
