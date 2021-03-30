@@ -1,4 +1,5 @@
-/* Responsive layout - Css was designed to be responsive on mobile and desktop devices.  Colors primarily gray,charcoal or black to represent biochar color, and green which represents growth.  Simple design implemented reflects enviornmentally conscious audience.  The navigation bar is designed to change color when hovered over. It also changes from horizontal to vertical on the navigation bar.  The menu bars have to be clicked for this to happen.   */
+/* Responsive layout - Css was designed to be responsive on mobile and desktop devices. The navigation bar is designed to change color when hovered over.
+It also changes from horizontal to vertical on the navigation bar.  The menu bars have to be clicked for this to happen.  */
 
 body {background-color:
   palegreen ;
@@ -149,7 +150,8 @@ div.hide {
         margin-top: -30px;
         margin-bottom: 30px;
     }
-/*         Media queries to ensure responsive web experience for viewer    */
+/* Media queries to ensure responsive web experience for viewer. This allows for responsive design of the navigation bar and hides all links except home on smaller displays
+  Link opens and closes the topnav .icon */
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -158,6 +160,10 @@ div.hide {
     display: block;
   }
 }
+  
+ 
+/* Media queries to ensure responsive web experience for viewer. The responsive class is added to the navigation bar with Javascript when the user clicks
+  on the icon. It looks better on smaller displays. */ 
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
