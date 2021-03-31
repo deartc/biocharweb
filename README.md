@@ -13,8 +13,8 @@ Accessibility: I followed best practices to ensure that the website was accessib
 In compliance to accessibility guidelines stated in class, I  limited the use of images to only those necessary for the webpage. I personally designed a logo in paint software that was simple.  It was designed to be in primary colors and very simple on purpose so that it loads quickly to meet accessibility best practices. I made sure I had no flashing animations.  It was designed to meet WCAG (web content accessibility guidelines). 
 
 I complied with WCAG principles (perceivable, operable, understandable, and robust) as closely as possible as discussed in the Treehouse curriculum.  A git hub io repository
-was generated and I tested accessbility on Google Lighthouse.  I got a 98 percent score on Lighthouse on accessbility.   This is the report in html format: 
-github.com-20210331T055328.html.
+was generated and I tested accessbility on Google Lighthouse.  I got a 92 percent score on Lighthouse on accessbility.   This is the report in html format:
+github.com-20210331T123735.html.
 
 
 I also labeled the buttons to meet accessibility rules.  To comply with accessibility requirements, I used media queries so  the webpage can be seen on a desktop or mobile device. I tested accessibility in developer tools and got no error messages. 
