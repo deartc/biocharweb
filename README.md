@@ -12,7 +12,10 @@ JavaScript and jquery: I used javaScript to aid in responsive design so it would
 Accessibility: I followed best practices to ensure that the website was accessible for those users with slower internet connections. I used Chrome developer tools to test the speed. The performance for blocking was 0.00 ms.  The html, css, and javascript was loaded in that order in order to allow for faster access. I put  most of styling components in css not html so it would load faster too. I chose a font that is simple to read to meet accessibility best practices.
 In compliance to accessibility guidelines stated in class, I  limited the use of images to only those necessary for the webpage. I personally designed a logo in paint software that was simple.  It was designed to be in primary colors and very simple on purpose so that it loads quickly to meet accessibility best practices. I made sure I had no flashing animations.  It was designed to meet WCAG (web content accessibility guidelines). 
 
-I complied with WCAG principles (perceivable, operable, understandable, and robust) as closely as possible as discussed in the Treehouse curriculum.   I tested the robustness on Google Lighthouse.  I also checked on HTML.5 validator  to ensure there were no problems with html. I also checked accessibility on Dynomapper.com and saw no error messages. In addition, I saw no error messages on Accessibility Checklist.  
+I complied with WCAG principles (perceivable, operable, understandable, and robust) as closely as possible as discussed in the Treehouse curriculum.  A git hub io repository
+was generated and I tested accessbility on Google Lighthouse.  I got a 98 percent score on Lighthouse on accessbility.   This is the report in html format: 
+github.com-20210331T055328.html
+
 
 I also labeled the buttons to meet accessibility rules.  To comply with accessibility requirements, I used media queries so  the webpage can be seen on a desktop or mobile device. I tested accessibility in developer tools and got no error messages. 
 
