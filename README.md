@@ -14,7 +14,7 @@ In compliance to accessibility guidelines stated in class, I  limited the use of
 
 I complied with WCAG principles (perceivable, operable, understandable, and robust) as closely as possible as discussed in the Treehouse curriculum.  A git hub io repository
 was generated and I tested accessbility on Google Lighthouse.  I got a 98 percent score on Lighthouse on accessbility.   This is the report in html format: 
-github.com-20210331T055328.html
+github.com-20210331T055328.html,
 
 
 I also labeled the buttons to meet accessibility rules.  To comply with accessibility requirements, I used media queries so  the webpage can be seen on a desktop or mobile device. I tested accessibility in developer tools and got no error messages. 
