@@ -62,14 +62,13 @@ li:nth-child(2n) {
 background-color: lime;
 }
 
+/* Create two equal columns that floats next to each .  This meet the media query requirement of responsive design of changing layout to aid 
+in improvement for user interaction by changing two stacked columns into one floated column.  This part of the  media query works best if media query is kept in this section */
 
 * {
   box-sizing: border-box;
 }
 
-
-/* Create two equal columns that floats next to each .  This meet the media query requirement of responsive design of changing layout to aid 
-in improvement for user interaction by changing two stacked columns into a floated column.  This part of the  media query works best if media query is kept in this section */
 
 
 @media screen and (max-width: 600px) {
@@ -110,7 +109,7 @@ div.hide {
 
 
 
-/*simple footer with domain*/
+/*simple footer with domain name */
 
 #footer {
   flex: 0 0 auto; 
