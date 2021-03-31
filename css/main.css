@@ -105,8 +105,7 @@ display: block;}
 
 /* Responsive layout - This meet the media query requirement of responsive design of changing layout to aid in improvement for user interaction by hiding data on smaller screens*/
 div.hide {
-  background-color: lime;
-  padding: 20px;
+
 }
 
 
@@ -115,9 +114,7 @@ div.hide {
 
 #footer {
   flex: 0 0 auto; 
-  
-  padding: 20px;
-  background: lightgray;
+ ;
 }
 
 
