@@ -62,16 +62,23 @@ li:nth-child(2n) {
 background-color: lime;
 }
 
-/* Create two equal columns that floats next to each .  This meet the media query requirement of responsive design of changing layout to aid 
-in improvement for user interaction by changing two stacked columns into one floated column.  This part of the  media query works best if media query is kept in this section */
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other.  This meet the media query requirement of responsive design of changing layout
+  to aid in improvement for user interaction  It is designed mobile first. */
+@media screen and (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
 
 * {
   box-sizing: border-box;
 }
 
 
+/* Create two equal columns that floats next to each .  This meet the media query requirement of responsive design of changing layout to aid 
+in improvement for user interaction by changing two stacked columns into a floated column.  This part of the  media query works best if media query is kept in this section */
 
-@media screen and (max-width: 600px) {
+
+@media screen and (min-width: 800px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -83,7 +90,7 @@ in improvement for user interaction by changing two stacked columns into one flo
 /* Create two equal columns that floats next to each .  This meet the media query requirement of responsive design of changing layout to aid  in improvement for user interaction*/
 .column {
   float: left;
-  width: 50%;
+  width: 100 %;
   padding: 10px;
   height: 100px; 
 }
@@ -94,6 +101,7 @@ in improvement for user interaction by changing two stacked columns into one flo
   display: table;
   clear: both;
 }
+
 
 
 
